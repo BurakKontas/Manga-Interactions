@@ -21,7 +21,7 @@ dependencies {
 }
 
 jar {
-    archiveBaseName = 'manga_axon'
+    archiveBaseName = 'manga.common'
     archiveVersion = '1.0.2'
 }
 
