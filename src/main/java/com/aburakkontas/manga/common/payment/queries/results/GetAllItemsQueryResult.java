@@ -5,6 +5,6 @@ import lombok.Data;
 import java.util.ArrayList;
 
 @Data
-public class GetPaymentsQueryResult {
-    private ArrayList<GetPaymentQueryResult> payments;
+public class GetAllItemsQueryResult {
+    ArrayList<GetItemQueryResult> items;
 }

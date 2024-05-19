@@ -7,8 +7,6 @@ import java.util.UUID;
 
 @Data
 @Builder
-public class GetPaymentQuery {
-    private UUID userId;
-    private UUID executorId;
-    private String paymentId;
+public class GetItemQuery {
+    private UUID itemId;
 }

@@ -9,9 +9,9 @@ import java.util.UUID;
 @Data
 public class GetPaymentQueryResult {
     private UUID userId;
+    private UUID executorId;
     private String paymentId;
     private Double price;
-    private Double paidPrice;
     private ZonedDateTime paymentDate;
     private String cardType;
     private String cardLastFourDigits;
