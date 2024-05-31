@@ -9,6 +9,5 @@ import java.util.UUID;
 @Builder
 public class GetPaymentQuery {
     private UUID userId;
-    private UUID executorId;
     private String paymentId;
 }

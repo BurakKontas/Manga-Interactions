@@ -10,7 +10,6 @@ import java.util.List;
 @AllArgsConstructor
 public class GetUserCreditQueryResult {
     private Double credit;
-    private ArrayList<?> payments;
     private ArrayList<?> successfulTransactions;
     private ArrayList<?> failedTransactions;
 }
